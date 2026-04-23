@@ -25,7 +25,7 @@ def baralho() -> dict:
         if 'A' in i:
             cartas[i] = 1
             
-        for n in range(1, 11):
+        for n in range(2, 11):
             
             if str(n) in i:
                 cartas[i] = n
