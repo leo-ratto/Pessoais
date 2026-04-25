@@ -250,7 +250,7 @@ def blackjack(creditos: float) -> float:
             mostrar_mao_dealer(cartas_dealer)
             jogador = mostrar_mao_jogador(cartas_jogador)
             
-            if jogador >= 21 or acao == 'd':
+            if jogador >= 21 or acao[0] == 'd':
                 break
             
             acao = acoes(creditos, aposta, cartas_jogador)
