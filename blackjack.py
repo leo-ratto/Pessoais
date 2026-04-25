@@ -344,7 +344,7 @@ def main():
             
             creditos = blackjack(creditos)
                 
-            start = input('\nPrecione Enter para continuar ')
+            start = input('\nPrecione Enter para continuar\n')
                     
             if start != '':
                 break
