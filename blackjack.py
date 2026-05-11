@@ -338,7 +338,7 @@ def main():
             
             if creditos < 5:
                 
-                print('\nSaldo insuficiente. Fim de jogo')
+                print('\nSaldo insuficiente. Fim de jogo\n')
                 
                 break
             
